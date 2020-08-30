@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRhbiIsImlkIjoiNWY0YjllNTAyMGJmMjM0MjI5ZmJkZDFjIiwiaWF0IjoxNTk4NzkyMTU4fQ.WHhGl3uM1d6wHct09IogPJ28aE1M0PpR-qv449WSnCc
+
+ {
+        "title": "test3",
+        "author": "Rohtau",
+        "url": "test.com",
+        "likes": 9,
+        "userId": "5f4b9e5020bf234229fbdd1c"
+}
